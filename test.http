@@ -1,0 +1,18 @@
+###
+# 유저 등록 API (POST /users)
+#
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "user_location": {
+    "lat": 36.6,
+    "lng": 127.4
+  },
+  "user_info": {
+    "ages": 25,
+    "gender": "남자",
+    "group": "친구",
+    "rate": 50
+  }
+}
